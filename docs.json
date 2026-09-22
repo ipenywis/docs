@@ -68,7 +68,10 @@
         ]
       },
       {
-        "tab": "test"
+        "tab": "test",
+        "pages": [
+          "untitled-page"
+        ]
       }
     ],
     "global": {
@@ -121,5 +124,6 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
-  }
+  },
+  "description": "test"
 }
