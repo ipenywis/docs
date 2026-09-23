@@ -125,5 +125,11 @@
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   },
-  "description": "test"
+  "description": "test",
+  "background": {
+    "decoration": "gradient"
+  },
+  "icons": {
+    "library": "lucide"
+  }
 }
