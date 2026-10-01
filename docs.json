@@ -17,8 +17,8 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "development",
+              "quickstart"
             ]
           },
           {
@@ -49,22 +49,21 @@
       },
       {
         "tab": "API reference",
-        "groups": [
+        "pages": [
+          "api-reference/introduction",
           {
             "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
+            "pages": []
           },
           {
             "group": "Endpoint examples",
             "pages": [
-              "api-reference/endpoint/get",
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
             ]
-          }
+          },
+          "api-reference/endpoint/get"
         ]
       },
       {
