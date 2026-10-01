@@ -10,6 +10,8 @@ You will likely update `docs.json` every time you add a new page. Pages do not s
 
 ## Navigation syntax
 
+New update here
+
 Our navigation syntax is recursive which means you can make nested navigation groups. You don't need to include `.mdx` in page names.
 
 <CodeGroup>
@@ -31,25 +33,6 @@ Our navigation syntax is recursive which means you can make nested navigation gr
 ```
 
 ```json Nested Navigation
-"navigation": {
-  "tabs": [
-    {
-      "tab": "Docs",
-      "groups": [
-        {
-          "group": "Getting Started",
-          "pages": [
-            "quickstart",
-            {
-              "group": "Nested Reference Pages",
-              "pages": ["nested-reference-page"]
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
 ```
 
 </CodeGroup>
